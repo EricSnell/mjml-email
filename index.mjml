@@ -1,0 +1,16 @@
+<mjml>
+
+  <mj-head>
+    <!-- Head components go here -->
+  </mj-head>
+
+  <!-- All of the content of our email will go in mj-body -->
+  <mj-body>
+    <!-- mj-container defines the default styling of our email, includeing
+        the default width, set to 600px but overwritable -->
+    <mj-container>
+      <!-- Body components go here -->
+    </mj-container>
+  </mj-body>
+
+</mjml>
