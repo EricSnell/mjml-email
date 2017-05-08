@@ -2,6 +2,7 @@
 
   <mj-head>
     <!-- Head components go here -->
+    <mj-title>Basic Layout Template</mj-title>
   </mj-head>
 
   <!-- All of the content of our email will go in mj-body -->
@@ -94,6 +95,26 @@
         </mj-column>
       </mj-section>
 
+      <!-- Icons -->
+      <mj-section background-color="#fbfbfb">
+        <mj-column>
+          <mj-image width="100" border-radius="100%" src="https://unsplash.it/100/100?random">
+        </mj-column>
+        <mj-column>
+          <mj-image width="100" border-radius="100%" src="https://unsplash.it/100/100?random">
+        </mj-column>
+        <mj-column>
+          <mj-image width="100" border-radius="100%" src="https://unsplash.it/100/100?random">
+        </mj-column>
+      </mj-section>
+
+      <!-- Social icons -->
+      <mj-section background-color="#e7e7e7">
+        <mj-column>
+          <mj-social display="facebook google twitter"
+                     icon-size="30">
+        </mj-column>
+      </mj-section>
         
           
     </mj-container>
