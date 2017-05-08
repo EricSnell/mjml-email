@@ -10,6 +10,64 @@
         the default width, set to 600px but overwritable -->
     <mj-container>
       <!-- Body components go here -->
+
+      <!-- Company Header -->
+      <mj-section background-color="#f0f0f0">
+        <mj-column>
+          <mj-text  align="center"
+                    font-style="italic"
+                    font-size="20"
+                    color="#626262">
+            My Company
+          </mj-text>
+        <mj-column>
+      </mj-section> 
+
+      <!-- Image Header -->
+      <mj-section background-url="https://unsplash.it/600/150/?random"
+                  background-size="cover"
+                  background-repeat="no-repeat">
+
+        <mj-column width="600">
+
+          <mj-text align="center"
+                   color="#fff"
+                   font-size="40"
+                   font-family="Helvetica Neue">Slogan Here</mj-text>
+          
+          <mj-button background-color="#f63a4d"
+                     href="#">
+            Promotion
+          </mj-button>
+        
+        </mj-columm>
+      </mj-section>
+
+      <!-- Intro text -->
+      <mj-section background-color="#fafafa">
+        <mj-column width="400">
+
+          <mj-text font-style="italic"
+                  font-size="20"
+                  font-family="Helvetica Neue"
+                  color="#626262">My Awesome Text</mj-text>
+
+          <mj-text color="#525252">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum 
+            enim eget magna efficitur, eu semper augue semper. Aliquam erat 
+            volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet 
+            suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet 
+            mollis faucibus.
+          </mj-text>
+
+          <mj-button background-color="#f45e43"
+                      href="#">Learn more</mj-button>
+        
+        </mj-column>
+      </mj-section>
+
+        
+          
     </mj-container>
   </mj-body>
 
